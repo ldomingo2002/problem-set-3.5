@@ -3,8 +3,7 @@
 <html>
 <head>
   <title> Popular Places </title>
-  <link ref="stylesheet" href="styles.css/places.css">
-  <link ref="stylesheet" href="styles.css/picture_sizes.css">
+  <link type="text/css" rel="stylesheet" href="styles.css/places.css" />
 </head>
 
 <body>
@@ -14,64 +13,90 @@
 
 <br/>
 <ul>
-  <li> <a href = "conspiracytheories.html" target = "_blank"/> <em> Conspiracy Theories </em> </a> </li>
-  <li> <a href = "conspiracytheorists.html" target = "_blank"/> <em> Conspiracy Theorists </em> </a> </li>
-  <li> <a href = "popularplaces.html" target = "_blank"/> <em> Popular Places </em> </a> </li>
-  <li> <a href = "about.html" target = "_blank"/> <em>  About this Website </em> </a> </li>
+  <li class= "lists"> <a href = "conspiracytheories.html" target = "_blank"/> <em> Conspiracy Theories </em> </a> </li>
+  <li class= "lists"> <a href = "conspiracytheorists.html" target = "_blank"/> <em> Conspiracy Theorists </em> </a> </li>
+  <li class= "lists"> <a href = "popularplaces.html" target = "_blank"/> <em> Popular Places </em> </a> </li>
+  <li class= "lists"> <a href = "about.html" target = "_blank"/> <em>  About this Website </em> </a> </li>
 </ul>
 
 <br/>
-<hr/>
 <br/>
 
 <style>
 
 *{
-  font-family: 'Bookman';
+  font-family: Helvetica;
 }
 #footer{
   text-align: center;
   margin-bottom: 30px;
 }
+body{
+background-color: rgb(133, 224, 133);}
 
+[class|="up"]{
+  position:absolute;
+  top: 400px;
+  left: 80px;
+  right: 80px;
+}
+
+[class|="stone"]{
+  position:absolute;
+  top: 800px;
+  left:80px;
+  right:80px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+[class|="title"]{
+  position: absolute;
+  top: 250px;
+  left:80px;
+  right:80px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
 </style>
+
+
 <ol>
-  <img src ="https://goop.com/wp-content/uploads/2017/07/1.jpg"/>
-  <h1> <li> Stonehenge</li></h1>
-  <p> Stonehenge can be found in England and it is known for the large 45 ton rocks that are placesd on top and around <br/>
-  each other. The size of the rocks just makes it seem as though humans weren't the ones that placed them there. It was <br/>
-estimated that thousands of people helped place those rocks while others say that the process was sped up with help from <br/>
+  <img id="picture" class = "up"src ="https://goop.com/wp-content/uploads/2017/07/1.jpg"/>
+  <h1 class="title"> <li> Stonehenge</li></h1>
+  <p class = "stone"> Stonehenge can be found in England and it is known for the large 45 ton rocks that are placesd on top and around
+  each other. The size of the rocks just makes it seem as though humans weren't the ones that placed them there. It was
+estimated that thousands of people helped place those rocks while others say that the process was sped up with help from
 aliens. </p>
 <br/>
 <hr/>
 <br/>
 
-  <img src = "https://goop.com/wp-content/uploads/2017/07/2.jpg"/>
+  <img id="picture" src = "https://goop.com/wp-content/uploads/2017/07/2.jpg"/>
   <h1><li> The Nasca lines </li></h1>
-  <p> The lines of Nasca are located at the Southern border of Peru in a desert. The lines are famous because they formed <br/>
-  into complex forms and figures but of a significantly large scale. many people say that aliens are the cause of these lines. <br/>
+  <p> The lines of Nasca are located at the Southern border of Peru in a desert. The lines are famous because they formed
+  into complex forms and figures but of a significantly large scale. many people say that aliens are the cause of these lines.
 There is yet to be an explanation but one is able to travel and see the lines in person. </p>
 
 <br/>
 <hr/>
 <br/>
 
-<img src = "https://goop.com/wp-content/uploads/2017/07/4.jpg"/>
+<img  id="picture" src = "https://goop.com/wp-content/uploads/2017/07/4.jpg"/>
   <h1><li> The Extraterrestrial Highway</li></h1>
-  <p> In 1947 arond Roswell,New Mexico, there had been news of a balloon crash on a ranch. The owner of the ranch had initially said that <br/>
-  the object had looked like some sort of flying saucer and had even collected a sample of the object, which he said looked unlike any metal <br/>
-he had ever seen before. The government had later collected the piece of metal from the rancher and threatened him so that he changed his <br/>
+  <p> In 1947 arond Roswell,New Mexico, there had been news of a balloon crash on a ranch. The owner of the ranch had initially said that
+  the object had looked like some sort of flying saucer and had even collected a sample of the object, which he said looked unlike any metal
+he had ever seen before. The government had later collected the piece of metal from the rancher and threatened him so that he changed his
 to make it sound like it was a balloon crash. You can visit the site and see exactly where the suspected UFO crashed. </p>
 
 <br/>
 <hr/>
 <br/>
 
-<img src = "https://goop.com/wp-content/uploads/2017/07/8.jpg"/>
+<img id="picture" src = "https://goop.com/wp-content/uploads/2017/07/8.jpg"/>
   <h1><li> Easter Island </li></h1>
-  <p> Easter Island,located in a Chilean island, is known for their maoi, or for the huge carved statues that sit on the island. <br/>
-  The statues are carved from volcanic rocks and the history of the island is passed down orally, but the history regarding these <br/>
-statues has been lost and continues to be a mytery to archaeologists. Nonetheless, it is a beautiful place to travel to and they <br/>
+  <p> Easter Island,located in a Chilean island, is known for their maoi, or for the huge carved statues that sit on the island.
+  The statues are carved from volcanic rocks and the history of the island is passed down orally, but the history regarding these
+statues has been lost and continues to be a mytery to archaeologists. Nonetheless, it is a beautiful place to travel to and they
 have more activities to choose from besides the maoi. </p>
 </ol>
 

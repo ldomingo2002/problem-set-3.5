@@ -3,6 +3,7 @@
 <html>
 <head>
   <title> Famous Conspiracy Theorists </title>
+  <link ref="stylesheet" href="styles.css/picture_sizes.css">
 </head>
 
 <body>
@@ -10,34 +11,60 @@
   <h3> By Leslie Dominguez </h3>
 
 <ul>
-  <li> <a href = "conspiracytheories.html" target = "_blank"/> <em> Conspiracy Theories </em> </a> </li>
-  <li> <a href = "conspiracytheorists.html" target = "_blank"/> <em> Conspiracy Theorists </em> </a> </li>
-  <li> <a href = "popularplaces.html" target = "_blank"/> <em> Popular Places </em> </a> </li>
-  <li> <a href = "about.html" target = "_blank"/> <em>  About this Website </em> </a> </li>
+  <li class ="list"> <a href = "conspiracytheories.html" target = "_blank"/> <em> Conspiracy Theories </em> </a> </li>
+  <li class ="list"> <a href = "conspiracytheorists.html" target = "_blank"/> <em> Conspiracy Theorists </em> </a> </li>
+  <li class ="list"> <a href = "popularplaces.html" target = "_blank"/> <em> Popular Places </em> </a> </li>
+  <li class ="list"> <a href = "about.html" target = "_blank"/> <em>  About this Website </em> </a> </li>
 </ul>
 
-<hr/>
 <br/>
 
-<img src ="https://uproxx.files.wordpress.com/2015/05/conspiracy_nuts.jpg?quality=95&w=650&h=364" height = 40% width = 40% />
+<img id="picture" class="move" src ="https://uproxx.files.wordpress.com/2015/05/conspiracy_nuts.jpg?quality=95&w=650&h=364"/>
 
-<div id="intro">
-  <p> Anyone can call themselves a conspiracy theorist. Theorists sometimes have a <br/>
+
+<p> Anyone can call themselves a conspiracy theorist. Theorists sometimes have a <br/>
   difficult time because other people insult and make assumptions about them. <br/>
   One of the greatest platforms used by theorists is social media, more specifically Youtube. <br/>
   A quick search will result in hundreds of different people wanting to give their opinion on a theory. <br/>
   Depending on the person and the event, a theory can be full of facts and some type pf proof.
-</p>
-</div>
+ </p>
 
 <br/>
-<hr/>
+<hr class= "divide"/>
 
 <!-- Css -->
 <style>
 
-#table{
-align-items: center;
+*{
+  font-family: Helvetica;
+}
+
+h1{
+  text-align: center;
+  color: black;
+  background-color: rgb(179, 102, 255);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 0px;
+}
+
+  h3{
+    text-align: center;
+    color: black;
+    background-color: rgb(179, 102, 255);
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+table{
+  text-align: center;
+  display:block;
+  margin-left: 400px;
+  margin-right: 500px;
+  height: 170px;
+  width: 500px;
+  border-collapse: collapse;
+
 }
 
 #footer{
@@ -49,15 +76,60 @@ margin-bottom: 30px;
   align-content: center;
 }
 
+#picture{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 40%;
+  width: 40%;
+  border-radius: 50%;
+  border-style: groove;
+}
+
 h2{ text-align: center;
 }
 
 p{
   text-align: justify;
+  margin-left: 200px;
+  margin-right: 200px;
+
+}
+
+.list{
+list-style-type: none;
+vertical-align: center;
+font-size: 20px;
+padding-top: 5%;
+padding-bottom: 5%;
+background-color: rgb(179, 102, 255);
+display: block;
+border-style: ridge;
+border-color: floralwhite;
+margin-left: 0%;
+margin-right: 90%;
+position: static;
 }
 
 body{
+background-color: rgb(218, 179, 255);
+}
 
+a :hover{
+  color: white;
+}
+
+li{
+list-style-type: none;
+vertical-align: middle;
+}
+
+[class|="move"]{
+  margin-left: 200px;
+  margin-right: 200px;
+  position: absolute;
+  top: 300px;
+  left: 400px;
 }
 
 </style>
@@ -65,8 +137,7 @@ body{
 
 <h2> List of top conspirators </h2>
 
-<div id="table">
-<table border = "1">
+<table id = "table" border = "1">
   <thead>
     <tr>
       <th> Top Conspirators </th>
@@ -97,13 +168,19 @@ body{
     </tr>
   </tfoot>
 </table>
-</div>
+
+
 
 <br/>
-<hr/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 <br/>
 
-<img src = "https://short-biography.com/wp-content/uploads/shane-dawson/Shane-Dawson.jpg" height =20% width = 20% />
+<img id="picture" src = "https://short-biography.com/wp-content/uploads/shane-dawson/Shane-Dawson.jpg"/>
 <h2> Shane Dawson: </h2>
 <p> Shane Dawson is an online influencer who produces videos on the social media platform known as youtube. <br/>
   He has over 18 million subscribers and produces lots of content that gets over a million views in a few days. His content ranges from skits to food reviews, <br/>
@@ -112,15 +189,15 @@ on beauty guru Jeffree Star and currently on Jake Paul where he tries to go deep
 
 <br/>
 
-<img src = "https://i1.wp.com/www.kendallraeonyt.com/wp-content/uploads/2017/10/Screen-Shot-2017-10-01-at-5.28.17-PM-1024x957.png?resize=600%2C600&ssl=1" height = 20% width = 20% />
+<img id="picture" src = "https://i1.wp.com/www.kendallraeonyt.com/wp-content/uploads/2017/10/Screen-Shot-2017-10-01-at-5.28.17-PM-1024x957.png?resize=600%2C600&ssl=1"/>
 <h2> Kendall Rae: </h2>
 <p> Kendall Rae is another Youtube influencer and has over 950,000 subscribers on her youtube channel. <br/>
   Her channel has evolved from lifestyle and makeup tutortials to solely on conspiracy theories and the occasional <br/>
 lifestyle videos. She has collaborated briefly before with Shane Dawson as well as her husband Josh Thomas. Something that she frequently <br/>
 does on her channel is advertise merchandise where all of the profits go to organizations.  </p>
 
-<img src = "https://upload.wikimedia.org/wikipedia/commons/7/72/BuzzfeedUnsolvedLogo.jpg.png" height = 20% width = 20% />
-<img src = "https://pbs.twimg.com/media/DTYEAexV4AEz8iD.jpg" height = 20% width = 20% />
+<img id="picture" src = "https://upload.wikimedia.org/wikipedia/commons/7/72/BuzzfeedUnsolvedLogo.jpg.png"/>
+<img id="picture" src = "https://pbs.twimg.com/media/DTYEAexV4AEz8iD.jpg"/>
 
 <h2> The Buzzfeed Unsolved Network: </h2>
 <p> The Buzzfeed Unsolved Network crew is a Youtube Channel that is dedicated to bringing spooky videos to it's audience. <br/>
@@ -129,7 +206,7 @@ does on her channel is advertise merchandise where all of the profits go to orga
   Buzzfeed creators as well as true crime and supernatural content from Ryan and Shane.
  </p>
 
-<img src = "https://yt3.ggpht.com/a-/AN66SAx5eFEY9G3nSsSGcl9VwdXuc-2krJyntZF-Hw=s900-mo-c-c0xffffffff-rj-k-no" height = 20% width = 20% />
+<img id="picture" src = "https://yt3.ggpht.com/a-/AN66SAx5eFEY9G3nSsSGcl9VwdXuc-2krJyntZF-Hw=s900-mo-c-c0xffffffff-rj-k-no"/>
 <h2> Josh Thomas </h2>
 <p> Josh Thomas is a Youtube influencer who has over 93,000 subscribers. His content is mainly focused on mysteries that <br/>
 have to do with space and science. He has collaborated with his wife Kendall Rae and has even started a podcast together with her <br/>
@@ -138,9 +215,8 @@ called the "Mile Higher podcast." </p>
 <br/>
 <br/>
 <hr/>
-<div id = "footer">
-<footer> © 2018 <a href = "https://www.ucvts.tec.nj.us/" target = "_blank"/> AIT </a> | APCSP | <a href = "info@example.com" target = "_blank"/> Contact info </a> | </footer>
-</div>
+
+<footer id="footer"> © 2018 <a href = "https://www.ucvts.tec.nj.us/" target = "_blank"/> AIT </a> | APCSP | <a href = "info@example.com" target = "_blank"/> Contact info </a> | </footer>
 
 </body>
 

@@ -1,12 +1,63 @@
-body{
-background-color: rgb(231, 215, 153)
-}
 
 a :hover{
   color: white;
 }
 
-li{
+.lists{
 list-style-type: none;
-vertical-align: middle;
+vertical-align: center;
+font-size: 20px;
+padding-top: 5%;
+padding-bottom: 5%;
+background-color: rgb(73, 208, 73);
+display: block;
+border-style: ridge;
+border-color: floralwhite;
+margin-left: 0%;
+margin-right: 90%;
+position: static;
+}
+
+h1{
+  text-align:center;
+  font-style: normal;
+  font-weight: bold;
+  text-decoration: underline;
+  background-color: rgb(73, 208, 73);
+}
+  h2{
+    text-align: center;
+    background-color: rgb(73, 208, 73);
+  }
+  h3{
+    text-align: center;
+    background-color: rgb(73, 208, 73);
+  }
+
+  #picture{
+    height: 40%;
+    width: 40%;
+    border-radius: 50%;
+    border-style: groove;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+  }
+
+li{
+  list-style-type: none;
+}
+
+p{
+  text-align: justify;
+font-weight: 10px;
+margin-left: 200px;
+margin-right: 200px;
+
+}
+
+footer{
+  text-align: center;
 }
